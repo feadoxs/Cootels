@@ -378,8 +378,11 @@
 }
 
 /* Футер */
-.footer {
+.footer-section {
   background-color: #0b265a;
+}
+
+.footer {
   color: #f5f7fa;
   display: flex;
   justify-content: space-around;

@@ -255,48 +255,52 @@ function App() {
       </section>
 
       {/* Футер */}
-      <div className="footer">
-        <div className="footer-section-1">
-          <h1>Cootels</h1>
-          <p className="Copyright">
-            Your Best Private Hideway From Crowd. Back to Nature.
-          </p>
-        </div>
-        <div className="footer-section-2">
-          <div className="poradoc-com">
-            <ul>
-              <h2 class="company">
-                <b>Rooms</b>
-              </h2>
-              <li className="item">Single Room</li>
-              <li className="item">Double Room</li>
-              <li className="item">Cabin</li>
-              <li className="item">Custom Room</li>
-            </ul>
+      <footer className="footer-section">
+        <div className="footer container">
+          {/* <div className="footer-container container"> */}
+          <div className="footer-section-1">
+            <h1>Cootels</h1>
+            <p className="Copyright">
+              Your Best Private Hideway From Crowd. Back to Nature.
+            </p>
           </div>
+          <div className="footer-section-2">
+            <div className="poradoc-com">
+              <ul>
+                <h2 class="company">
+                  <b>Rooms</b>
+                </h2>
+                <li className="item">Single Room</li>
+                <li className="item">Double Room</li>
+                <li className="item">Cabin</li>
+                <li className="item">Custom Room</li>
+              </ul>
+            </div>
 
-          <div className="poradoc-com">
-            <ul>
-              <h2 className="company">
-                <b>Reservation</b>
-              </h2>
-              <li className="item">See the Steps</li>
-              <li className="item">Best Time</li>
-            </ul>
-          </div>
+            <div className="poradoc-com">
+              <ul>
+                <h2 className="company">
+                  <b>Reservation</b>
+                </h2>
+                <li className="item">See the Steps</li>
+                <li className="item">Best Time</li>
+              </ul>
+            </div>
 
-          <div className="poradoc-com">
-            <ul>
-              <h2 className="company">
-                <b>Contact</b>
-              </h2>
-              <li class="item">Our Number</li>
-              <li class="item">Our Email</li>
-              <li class="item">Our Location</li>
-            </ul>
+            <div className="poradoc-com">
+              <ul>
+                <h2 className="company">
+                  <b>Contact</b>
+                </h2>
+                <li class="item">Our Number</li>
+                <li class="item">Our Email</li>
+                <li class="item">Our Location</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
+        {/* </div> */}
+      </footer>
     </>
   );
 }
